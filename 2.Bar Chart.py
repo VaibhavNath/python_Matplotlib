@@ -32,9 +32,8 @@ plt.ylabel('Median Salary (USD)')               #label y axis
 plt.title('Median Salary (USD) by Age')         #give graph a title
 
 plt.legend()       #used to label the different plots   
-
 plt.tight_layout()
-
+plt.savefig('plot(2).png')
 plt.show() 
 
 
