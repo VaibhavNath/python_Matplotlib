@@ -15,8 +15,8 @@ overall_median = 57287
 
 plt.fill_between(ages , py_salaries ,dev_salaries ,
                     where = (py_salaries >dev_salaries) , interpolate=True  ,alpha=0.25 , label ='Above avg')   
- #Regulate the transparency of a graph plot using the alpha attribute. By default, alpha=1.
-
+#Regulate the transparency of a graph plot using the alpha attribute. By default, alpha=1.
+#Interpolation is a technique in Python used to estimate unknown data points between two known data points
 plt.fill_between(ages , py_salaries ,dev_salaries ,
                     where = (py_salaries <= dev_salaries) , interpolate=True  ,color= 'red' , alpha=0.25 , label= 'Below avg')
 
