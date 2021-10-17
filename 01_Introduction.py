@@ -14,7 +14,7 @@ Matplotlib is open source and we can use it freely.'''
 # fmt='[marker][line][color]'
 
 
-#linewidth amkes the line of plot darker i.e. increases its width
+#linewidth makes the line of plot darker i.e. increases its width
 
 
 from matplotlib import pyplot as plt
@@ -55,7 +55,7 @@ plt.title('Median Salary (USD) by Age')         #give graph a title
 
 plt.legend()       #used to label the different plots   
 
-plt.tight_layout()   #tight_layout automatically adjusts subplot params so that the subplot(s) fits in to the figure area.
+plt.tight_layout()   #tight_layout automatically adjusts subplot parameter so that the subplot(s) fits in to the figure area.
 
 plt.grid(True)      #to add grid lines to plot
 
