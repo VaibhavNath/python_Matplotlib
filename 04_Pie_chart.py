@@ -9,9 +9,9 @@ plt.style.use('fivethirtyeight')
 
 # plt.pie(slices , labels = labels , colors = colors ,wedgeprops = {'edgecolor':'black'})        #plot a pie chart with some labels
 
-# shadow makes chart look 3D
-#startangle makes pic chart rotate by given angle value.
-#autopct tells percentage of pic chart occupied by different labels.
+#  shadow makes chart look 3D
+#  startangle makes pic chart rotate by given angle value.
+#  autopct tells percentage of pie chart occupied by different labels.
 
 
 

@@ -37,9 +37,8 @@ plt.savefig('plot(2).png')
 plt.show() 
 
 
-'''To make vertical bar plot use command
-plt.bar
-followed by all other commands , xlabel , ylabel , legend , show etc.'''
+'''To make horizontal bar plot use command
+plt.barh (followed by all other commands , xlabel , ylabel , legend , show etc.)'''
 
 
 '''To make highest value appear on top use command
