@@ -11,7 +11,7 @@ Matplotlib is open source and we can use it freely.'''
 
 
 '''A format string consists of a part for color , marker and line. '''
-# fmt='[marker][line][color]'
+# fmt='[color][marker][line]'
 
 
 #linewidth makes the line of plot darker i.e. increases its width
